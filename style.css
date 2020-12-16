@@ -75,10 +75,6 @@ header {
     justify-content: center;
 }
 
-#graphisme {
-    display: flex;
-    flex-direction: column;
-}
 
 #graphisme h1 {
     text-align: center;
@@ -156,4 +152,49 @@ footer {
 .logo i {
     color: white;
     opacity: 0.7;
+}
+
+.nav_foot {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.nav_foot a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+}
+
+#coordonnees {
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.nav_foot p {
+    text-align: left;
+    color: white;
+    font-size: 0.9em;
+    opacity: 0.7;
+
+}
+
+#rapide li {
+    margin-left: 20px;
+}
+
+#about li {
+    margin-left: 20px;
+}
+
+#coordonnees li {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #part_two {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
