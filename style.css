@@ -1,3 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #block {
     margin: auto;
 }
@@ -35,7 +41,7 @@ header {
  }
 
  #banner {
-     height: 400px;
+     height: 350px;
      display: flex;
      background-image: url("images/backgroung_image.jpg");
      background-repeat: no-repeat;
@@ -57,4 +63,97 @@ header {
      height: 50px;
  }
 
- 
+#pres p {
+    text-align: center;
+    opacity: 0.6;
+}
+
+#part_two {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#graphisme {
+    display: flex;
+    flex-direction: column;
+}
+
+#graphisme h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+#graphisme p {
+    font-size: 0.8em;
+    opacity: 0.8;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+#strategie h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#strategie p {
+    font-size: 0.8em;
+    opacity: 0.8;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#illustration h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#illustration p {
+    font-size: 0.8em;
+    opacity: 0.8;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#quote p {
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#quote figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.6;
+}
+
+footer {
+    background-color: rgb(73, 42, 126);
+}
+
+
+#info p {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 0.6em;
+}
+
+.logo {
+    display: flex;
+    margin-right: 45%;
+    margin-left: 45%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logo i {
+    color: white;
+    opacity: 0.7;
+}
